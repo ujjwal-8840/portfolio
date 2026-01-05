@@ -1,0 +1,385 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--second);
+  background-color: black;
+   
+}
+:root{
+    --first:white;
+    --second:black;
+    --third:rgb(233, 86, 18);
+}
+.container{
+    width: 100%;
+    height: 30vh;
+    background-color: var(--second);
+     background-image: url(study.jpg);
+     background-size: 100% 100%;
+     
+}
+.navbar{
+    width: 70%;
+    height: 7vh;
+    background-color: var(--first);
+    margin-left: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+.navbar-left{
+    display: flex;
+    gap: 10px;
+}
+.us{
+    border: 1px solid var(--third);
+    color: var(--first);
+    border-radius: 50%;
+    background-color: var(--third);
+    margin-left: 5px;
+    padding: 5px;
+}
+.name{
+    color: var(--third);
+}
+.navbar-mid{
+    display: flex;
+    gap: 30px;
+}
+.home:hover,.skill:hover,.port:hover,.about:hover{
+    color: var(--third);
+    cursor: pointer;
+}
+.cont:hover,.page:hover{
+    color: var(--third);
+    cursor: pointer;
+}
+.btn-1{
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--first);
+    background-color: black;
+cursor: pointer;
+}
+.btn-1:hover{
+    background-color: var(--third);
+}
+.middle-ab{
+    color: var(--third);
+    text-align: center;
+margin-top: 100px;
+}
+.middle-me{
+    color: var(--first);
+    text-align: center;
+
+}
+.middle-container{
+    width: 100%;
+    height: 60vh;
+    background-color: var(--second);
+ 
+}
+.photo{
+width: 250px;
+height: 250px;
+border: 2px solid var(--second);
+border-radius: 50%;
+}
+
+.image{
+    display: flex;
+    gap: 200px;
+}
+.middle-section{
+    width: 400px;
+    padding: 20px;
+}
+
+.para{
+    color: var(--first);
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.para-1{
+    color: var(--first);
+    margin-top: 10px;
+}
+
+
+.btn-4{
+    border: 2px solid var(--third);
+    padding: 10px;
+    border-radius: 20px;
+ color: var(--first);
+ background-color: var(--second);
+margin-top: 20px;
+margin-left: 20px;
+cursor: pointer;
+}
+.btn-4:hover{
+    background-color: var(--third);
+    
+}
+.sec-middle-container{
+    width: 100%;
+    height: 100px;
+    background-color:var(--second);
+}
+.work{
+    color: var(--first);
+}
+.sk{
+color:var(--third);
+}
+.h1{
+    text-align: center;
+   
+}
+.middle-p{
+    color: var(--first);
+    text-align: center;
+    margin-top: 20px;
+    word-wrap: break-word;
+    
+}
+.mid-middle-container{
+  
+    display: flex;
+    width: 100%;
+    height:500px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+}
+/* .sec-html,.sec-css,.sec-js,.sec-react,.sec-figma,.sec-animation{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    color: var(--first);
+    border: 1px solid var(--first);
+    border-radius: 10px;
+
+}
+.sec-html:hover,.sec-css:hover,.sec-js:hover,.sec-react:hover,.sec-figma:hover,.sec-animation:hover{
+    background-color:var(--third);
+    color: black;
+    cursor: pointer;
+} */
+ .sec-html, .sec-css, .sec-js, .sec-react, .sec-figma, .sec-animation ,.sec-mysql,.sec-ai{
+    width: 200px;
+    padding: 20px;
+    margin: 10px; 
+    color: var(--first);
+    border: 1px solid var(--first);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.sec-html:hover, .sec-css:hover, .sec-js:hover,
+.sec-react:hover, .sec-figma:hover, .sec-animation:hover,.sec-mysql:hover,.sec-ai:hover{
+    background-color: var(--third);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.service{
+  text-align: center;
+  margin-top: 50px;
+}
+.my{
+  color: var(--first);
+}
+.ser{
+  color: var(--third);
+}
+.sev{
+  margin-top: 10px;
+  color: var(--first);
+}
+.sahu{
+    width: 100%;
+    color: var(--third);
+    text-align: center;
+    margin-top:50px
+}
+.project-container{
+  display: flex;
+    width: 100%;
+    height:250px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;   
+}
+.sec-pro1,.sec-pro2,.sec-pro3{
+     width: 300px;
+    padding: 20px;
+    margin: 10px; /* ✅ fixed */
+    color: var(--first);
+    border: 1px solid var(--first);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.sec-pro1:hover,.sec-pro2:hover,.sec-pro3:hover{
+     background-color: var(--third);
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.contact-container{
+     width: 100%;
+    height: 40vh;
+    background-color: var(--second);
+}
+.con-photo{
+    width: 300px;
+height: 280px;
+border: 2px solid var(--second);
+border-radius: 10%;
+margin-left: 100px;
+}
+.con-image{
+     display: flex;
+    gap: 200px;
+}
+.contact-section{
+  width: 100px;
+    padding: 20px;   
+}
+.con-info{
+     width: 550px;
+    border: 1px solid rgba(34, 29, 29, 0.986);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: var(--first);
+    column-gap: 10px;
+    cursor: pointer;
+   
+}
+.con-info:hover{
+     transform: scale(1.1);
+     transition: transform 0.3s ease-in-out ;
+}
+.me{
+    width: 100%;
+    color: var(--third);
+    text-align: center;
+    margin-top:100px
+}
+.footer{
+  width:100%;
+  height: 100px;
+  background-color: var(--third);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .navbar-mid {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .image {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .con-image {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .con-photo {
+    width: 90%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .contact-section {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .con-info {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .mid-middle-container,
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .sec-html,
+  .sec-css,
+  .sec-js,
+  .sec-react,
+  .sec-figma,
+  .sec-animation,
+  .sec-pro1,
+  .sec-pro2,
+  .sec-pro3 {
+    width: 90%;
+  }
+
+  .middle-section {
+    width: 90%;
+  }
+
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container {
+    height: 20vh;
+    background-size: cover;
+  }
+
+  .btn-1, .btn-4 {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .middle-ab,
+  .middle-me,
+  .para,
+  .para-1,
+  .middle-p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
