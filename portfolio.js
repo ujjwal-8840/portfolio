@@ -2,7 +2,7 @@ function downloadResume(){
   document.querySelector("downloadResume")
     
     const link = document.createElement("a");
-    link.href = "Resume_tcs.pdf"; 
+    link.href = "Resume_tcs1.pdf"; 
     link.download = "ujjwal_resume.pdf"; 
     link.click();
   
